@@ -8,7 +8,6 @@ Projeto disponibilizado no curso da Alura - Armazenando dados no navegador, onde
 
 <p align="center">
   <img alt="rocketpay" src="./assets/check-list-empty.png" width="48%">
-  <figcaption>Check-list vazia</figcaption>
   <img alt="rocketpay" src="./assets/check-list-filled.png" width="48%">
 </p>
 
