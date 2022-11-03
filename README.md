@@ -12,7 +12,8 @@ Projeto disponibilizado no curso da Alura - Armazenando dados no navegador, onde
 </p>
 
 <br>
-## 🚀 Tecnologias
+
+# 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
