@@ -134,7 +134,7 @@ html {
   align-items: center;
   justify-content: space-between;
   gap: 1em;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .item strong {
@@ -184,4 +184,75 @@ p {
   letter-spacing: .05rem;
 }
 
+@media (max-width: 1024px) {
+  header {
+    text-align: center;    
+  }
+
+  h1 {
+    margin-top: 3rem;
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.15rem;
+  }
+
+  .principal {
+    width: 600px;
+  }
+
+  .itens-lista {
+    width: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    margin-top: 2.5rem;
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+    margin: 1rem;
+  }
+
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .principal {
+    width: 100%;
+  }
+
+  .itens-lista {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  h1 {
+    margin-top: 2.5rem;
+    font-size: 1.75rem;
+  }
+
+  .mochila {
+    display: none;
+  }
+
+  .conteudo {
+    padding: 1rem;
+  }
+
+  .principal {
+    padding: 2em 1em;
+  }
+
+  .item {    
+    font-size: 16px;
+  }
+}
 
